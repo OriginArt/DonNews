@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<ListView
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="45dp" />
+
+<ImageView
+    android:id="@+id/imgRefr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:clickable="true"
+    android:contentDescription="@string/app_refresh"
+    android:onClick="clickRefresh"
+    android:src="@drawable/navigation_refresh" />
+
+<ProgressBar
+    android:id="@+id/PrgBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/imgRefr"
+    android:layout_alignLeft="@+id/imgRefr"
+    android:maxHeight="26dp"
+    android:maxWidth="26dp"
+    android:minHeight="35dp"
+    android:minWidth="35dp"
+    android:visibility="invisible" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/imgRefr"
+    android:contentDescription="@string/app_dn_logo_dscr"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/dn_logo" />
+
+</RelativeLayout>

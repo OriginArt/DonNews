@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="5dp"
+        android:layout_height="58dp"
+        android:scaleType="center"
+        android:src="@drawable/bg_line" />
+
+    <TextView
+        android:id="@+id/ArtHdr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:height="58dp"
+        android:maxHeight="58dp"
+        android:minHeight="58dp"
+        android:paddingLeft="3dp"
+        android:textIsSelectable="true"
+        android:textSize="16sp" />
+
+</RelativeLayout>

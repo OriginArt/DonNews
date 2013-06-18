@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Settings -->
+    <string name="app_name">DonNews</string>
+    <string name="action_settings">Настройки</string>
+    <string name="app_version">Версия 0.1.0</string>
+    <string name="app_develop">Бусыгин Дмитрий Викторович. 2013.</string>
+    <string name="app_copyright">Авторские права на все материалы используемые в приложении, принадлежат сайту DonNews.Ru и его партнерам.</string>
+    <string name="app_dn_logo_dscr">DonNews.Ru - Новости Ростова и области.</string>
+    <string name="app_oa_logo_dscr">OriginArt.Ru</string>
+    <string name="oa_home">http://www.originart.ru/</string>
+    <string name="app_refresh">Обновить</string>
+    
+    <!-- End Main Settings -->
+    
+    <!-- DonNews Requwest -->
+    <string name="main_url_req">http://donnews.ru/</string>
+    <string name="usr_agent">"Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.46 Safari/536.5"</string>
+    <string name="news_content">#newspaper-bg-upper .content</string>
+    <string name="news_content_alt">.newspaper-bg-upper .content</string>
+    <string name="news_date">.published_date</string>
+    <string name="news_content_ref">.content p>a</string>
+    <string name="news_headers">table p>a</string>
+    <string name="news_hrefs">abs:href</string>
+    <string name="news_timeout">5000</string>
+    <!-- End DonNews Requwest -->
+    
+    <!-- Color Schema -->
+    <string name="color_black_text">#000000</string>
+    <string name="color_gray_text">#BBBBBB</string>
+    <string name="color_gray_backgroung">#EEEEEE</string>
+    <string name="color_white_background">#FFFFFF</string>
+    <!-- End Color Schema -->
+    
+    <!-- Preferences -->
+    <string name="prf_ctg_lod_t">Загрузка данных</string>
+    <string name="prf_ctg_lod_s"></string>
+    <string name="lod_pictures_t">Загружать картинки</string>
+    <string name="lod_pictures_s">Загружать и показывать картинки в статье</string>
+    
+    <string name="prf_ctg_del_t">Удаление данных</string>
+    <string name="prf_ctg_del_s"></string>
+    <string name="del_articles_t">Удалить статьи</string>
+    <string name="del_articles_s">Удалить все загруженные статьи</string>
+    <string name="del_pictures_t">Удалить картинки</string>
+    <string name="del_pictures_s">Удалить все загруженные приложением картинки</string>
+    <string name="del_articles_m">Статьи успешно удалены</string>
+    <string name="del_pictures_m">Картнки успешно удалены</string>
+    
+    <string name="prf_ctg_viw_t">Отображение данных</string>
+    <string name="prf_ctg_viw_s"></string>
+    <string name="art_count_t">Отображать не больше</string>
+    <string name="art_count_s">Количество отображаемых в списке статей</string>
+    <string name="shw_dates_s">Показывать даты в списке статей</string>
+    <string name="shw_dates_t">Показывать даты</string>
+    
+    <string name="shw_fnt_size_t">Размер шрифтов</string>
+    <string name="shw_fnt_size_s">Размеры шрифтов для статей и заголовков</string>
+    <string name="fnt_size">2</string>
+    <string name="snd_suggests_s">Оставить отзыв, предложить, похвалить, покритиковать&#8230;</string>
+    <string name="snd_suggests_t">Обратная связь</string>
+    <string name="abt_program_t">О программе</string>
+    <string name="abt_program_s">Версия, разработчик</string>
+    <string name="prf_ctg_abt_t">О программе</string>
+    <string name="prf_ctg_abt_s"></string>
+    <!-- End Preferences -->
+    
+    <!-- Errors -->
+    <string name="DonNews_OK">Обновление завершено.</string>
+    <string name="DonNews_ERROR_HTTP_RESPONSE_CODE">Сервер недоступен.</string>
+    <string name="DonNews_ERROR_COULD_NOT_CONNECT_WHEN_REQUEST_HEADERS_REFS">Нет возможности подключится. Проверьте соединение с интернетом.</string>
+    <string name="DonNews_NOTE_NO_FRESH_ARTICLES">Свежих новостей нет.</string>
+    <string name="DonNews_ERROR_UNEXPECTED_ERROR_WHEN_REQUEST_ARTICLE">Непредвиденная ошибка при запросе статьи.</string>
+    <string name="DonNews_ERROR_NOTHING_WAS_LOADED">Нет данных для обновления.</string>
+    <string name="DonNews_ERROR_WHILE_LOAD_IMAGES">Ошибка при загрузке изображений.</string>
+    
+    <!-- End Errors -->
+    
+    <string name="articles_limit">40</string>
+
+</resources>

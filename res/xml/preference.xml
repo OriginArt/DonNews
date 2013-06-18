@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="@string/prf_ctg_lod_s"
+   android:title="@string/prf_ctg_lod_t" >
+     <CheckBoxPreference
+        android:title="@string/lod_pictures_t"
+        android:defaultValue="false"
+        android:summary="@string/lod_pictures_s"
+        android:key="lod_pictures" />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="@string/prf_ctg_del_s"
+   android:title="@string/prf_ctg_del_t" >
+     <Preference
+        android:title="@string/del_articles_t"
+        android:summary="@string/del_articles_s"
+        android:key="del_articles">
+     </Preference>
+
+     <Preference
+        android:title="@string/del_pictures_t"
+        android:summary="@string/del_pictures_s"
+        android:key="del_pictures">
+     </Preference>
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="@string/prf_ctg_viw_s"
+   android:title="@string/prf_ctg_viw_t" >
+     <EditTextPreference 
+       android:defaultValue="@string/articles_limit" 
+       android:key="art_count" 
+       android:title="@string/art_count_t" 
+       android:summary="@string/art_count_s"   
+       android:inputType="number"/> 
+     <CheckBoxPreference
+       android:title="@string/shw_dates_t"
+       android:defaultValue="false"
+       android:summary="@string/shw_dates_s"
+       android:key="shw_dates" />
+      <ListPreference     
+        android:title="@string/shw_fnt_size_t"
+        android:summary="@string/shw_fnt_size_s"
+        android:key="fnt_size"
+        android:defaultValue="@string/fnt_size"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="@string/prf_ctg_abt_s"
+   android:title="@string/prf_ctg_abt_t" >
+     <Preference
+        android:title="@string/snd_suggests_t"
+        android:summary="@string/snd_suggests_s"
+        android:key="snd_suggests">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="@string/oa_home" />
+     </Preference>
+     
+     <Preference
+        android:title="@string/abt_program_t"
+        android:summary="@string/abt_program_s"
+        android:key="abt_program">
+     </Preference>
+ </PreferenceCategory>
+</PreferenceScreen>

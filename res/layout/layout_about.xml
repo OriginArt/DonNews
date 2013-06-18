@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/app_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/app_copyright" />
+
+    <TextView
+        android:id="@+id/app_develop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:gravity="center"
+        android:text="@string/app_develop" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/app_version"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/dn_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/app_copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:contentDescription="@string/app_dn_logo_dscr"
+        android:src="@drawable/dn_logo" />
+
+    <ImageView
+        android:id="@+id/oa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/app_develop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:contentDescription="@string/app_oa_logo_dscr"
+        android:src="@drawable/oa" />
+
+</RelativeLayout>

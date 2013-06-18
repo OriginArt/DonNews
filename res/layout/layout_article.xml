@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgInArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/no_photo" />
+        
+       <TextView
+         android:id="@+id/ArtCnt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:textIsSelectable="false"
+         android:layout_below="@id/imgInArt"
+         android:layout_alignRight="@layout/layout_article"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+       
+       <TextView
+         android:id="@+id/ArtHdr"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:textIsSelectable="true"
+         android:layout_below="@id/ArtCnt"
+         android:textSize="21sp" />
+
+
+       <TextView
+         android:id="@+id/ArtDat"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@id/ArtHdr"
+         android:textIsSelectable="false"
+         android:layout_marginTop="10dp"
+         android:textSize="12sp" /> 
+
+       <TextView
+         android:id="@+id/ArtTxt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/ArtDat"
+         android:textIsSelectable="true"
+         android:layout_marginTop="17dp"
+         android:textSize="17sp" />
+
+    </RelativeLayout>
+
+</ScrollView>
